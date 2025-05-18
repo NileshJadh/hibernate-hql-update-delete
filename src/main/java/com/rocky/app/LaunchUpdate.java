@@ -14,7 +14,8 @@ import com.rocky.model.Student;
 public class LaunchUpdate {
 
 	public static void main(String args[]) {
-		
+		// Creating configuration 
+
 		 SessionFactory sessionFactory =new 
 				 Configuration().configure().
 				 addAnnotatedClass(Student.class).
